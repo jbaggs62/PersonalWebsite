@@ -1,6 +1,7 @@
 package main
 
 import (
+	"PersonalWebsite/src/templates"
 	"fmt"
 	"net/http"
 
@@ -9,8 +10,8 @@ import (
 
 func main() {
 
-	componentHello := hello("Jacob")
-	componentProjects := projects("Jacob")
+	componentHello := templates.Hello("Jacob")
+	componentProjects := templates.Project("Jacob")
 
 	http.Handle("/", templ.Handler(componentHello))
 	http.Handle("/projects", templ.Handler(componentProjects))
