@@ -8,7 +8,7 @@ COPY ./src/ /app/
 
 
 
-RUN CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build -o PersonalWebsite
+RUN go build -o /go-docker-demo
 
 # Create a smaller final image
 FROM alpine:3.18.4
