@@ -1,7 +1,7 @@
 package main
 
 import (
-	"PersonalWebsite/src/templates"
+	"PersonalWebsite/templates"
 	"fmt"
 	"net/http"
 
