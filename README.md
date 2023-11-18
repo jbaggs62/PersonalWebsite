@@ -7,6 +7,12 @@ Go+Templ personal website
 
 # Uses Air for Hot Reload
 
-[Air Github](https://github.com/a-h/templ)
+[Air Github](https://github.com/cosmtrek/air)
 
+
+#Run APP
+Install Air  
+
+Run command
+```air```
 
